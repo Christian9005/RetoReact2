@@ -13,7 +13,10 @@ const useGifGalery = () => {
   }, []);
 
   const addGif = (url:string) => {
-    console.log("url",url);
+    client.post(``,{
+      "url":url,
+      "author_id": 1005
+    })
   };
 
   const deleteGif = (id:number) => {};
