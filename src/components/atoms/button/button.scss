@@ -1,0 +1,42 @@
+.button {
+  border: 1px solid gray;
+  background-color: white;
+  color: gray;
+  cursor: pointer;
+
+
+  &:hover{
+    background-color: darkgrey;
+    color: gray;
+  }
+
+  &--border-right{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+
+  &--primary{
+    border: none;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+  }
+
+  &--small{
+    padding: 10px 10px;
+  }
+
+  &--large{
+    padding: 10px 20px;
+  }
+
+  &__Label {
+    color: aliceblue;
+
+    &--red{
+      color: darkred;
+    }
+  }
+
+
+}
